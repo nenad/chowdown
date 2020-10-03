@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Chowdown, a plain text recipe database for hackers
+Cookbook, a plain text recipe database for hackers (fork of Chowdown)

@@ -12,7 +12,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/icons/favicon-16x16.png">
@@ -39,14 +39,4 @@
     }
   }
   </script>
-  
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@chowdownapp">
-  <meta name="twitter:creator" content="@clarklab">
-  {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="Chowdown">{% endif %}
-  {% if page.url %}<meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">{% endif %}
-  {% if page.directions %}<meta name="twitter:description" content="{{ page.content | strip_html }}">{% else %}<meta name="twitter:description" content="Chowdown">{% endif %}
-  {% if page.image %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">{% endif %}
-
 </head>

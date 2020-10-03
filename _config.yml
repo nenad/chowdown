@@ -1,13 +1,11 @@
 # Site settings
-title: Chowdown
-email: your-email@domain.com
+title: Cookbook
+email: me@nenad.dev
 description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+github_username:  nenad
 
 # Build settings
 markdown: kramdown
@@ -31,7 +29,6 @@ translation:
     nutritional_information: "Nutritional Information"
     component_based: 'This is a <strong class="blue">component-based recipe</strong>.'
     search: "Search"
-    blog: "Blog"
     subscribe: "Subscribe"
   de:
     components: "Komponenten"
@@ -41,5 +38,4 @@ translation:
     nutritional_information: "Nährwertangaben"
     component_based: 'Dieses Rezept besteht aus <strong class="blue">mehreren Komponenten</strong>.'
     search: "Suche"
-    blog: "Blog"
     subscribe: "Abonnieren"
