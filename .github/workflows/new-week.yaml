@@ -1,0 +1,26 @@
+name: New week randomizer
+on:
+  schedule:
+    - '0 8 * * FRI' # Run every Friday morning
+jobs:
+  select_recipes:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Generate menu for next week
+      run: |
+        nextWeek=$(( $(date +%W) + 1))
+        echo '' > /tmp/newMenu
+        echo $(date +W%nextWeek-%Y:) >> /tmp/newMenu
+        grep "name:" _data/recipes.yml | sort -R | head -3 | xargs -I {} printf '  %s\n' "{}" >> /tmp/newMenu
+        cat /tmp/newMenu >> _data/recipes.yml
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v5
+      with:
+        author_name: Nenad Stojanovikj
+        author_email: me+github@nenad.dev
+        message: "Add recipes for new week"
+        add: "_data/recipes.yml"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
