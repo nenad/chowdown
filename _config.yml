@@ -5,7 +5,7 @@ description: The plain text recipe database for hackers
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-github_username:  nenad
+github_username: nenad
 
 # Build settings
 markdown: kramdown
@@ -30,12 +30,3 @@ translation:
     component_based: 'This is a <strong class="blue">component-based recipe</strong>.'
     search: "Search"
     subscribe: "Subscribe"
-  de:
-    components: "Komponenten"
-    ingredients: "Zutaten"
-    directions: "Zubereitung"
-    category: "Kategorie"
-    nutritional_information: "Nährwertangaben"
-    component_based: 'Dieses Rezept besteht aus <strong class="blue">mehreren Komponenten</strong>.'
-    search: "Suche"
-    subscribe: "Abonnieren"
