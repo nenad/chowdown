@@ -1,7 +1,7 @@
 name: New week randomizer
 on:
   schedule:
-    - cron: '0 8 * * FRI' # Run every Friday morning
+    - cron: '0 8 * * 5' # Run every Friday morning
 jobs:
   select_recipes:
     runs-on: ubuntu-latest
