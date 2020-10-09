@@ -1,4 +1,4 @@
-name: New menu generator
+name: New week menu generator
 on:
   schedule:
     - cron: '0 8 * * 5' # Run every Friday morning
