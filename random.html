@@ -1,0 +1,26 @@
+---
+layout: default
+title: Random recipes
+---
+
+{% assign week = site.time | date: "W%W-%Y" %}
+
+<h1>Random recipes for {{week}}</h1>
+
+{%- comment -%}Find recipes from current week{%- endcomment -%}
+{% assign randomRecipes = '' | split: '' %}
+{% for val in site.data.weeks %}
+{% if val[0] == week %}
+{% for recName in val[1] %}
+  {% assign recipe = site.data.recipes | where: "name", recName.name %}
+  {% assign randomRecipes = randomRecipes | concat: recipe %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% for recipe in randomRecipes %}
+<div class="mt3">
+  <h2>{{recipe.name}}</h2>
+  <img src="{{recipe.image}}" class="image" />
+</div>
+{% endfor %}

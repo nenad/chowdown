@@ -1,0 +1,15 @@
+- name: Sri Lankan Prawn Pilaf
+  ingredients: basmati rice, prawns, onion, curry
+  image: https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_auto,w_2600/hellofresh_s3/image/sri-lankan-prawn-pilaf-wk34-93ba327a.jpg
+
+- name: Chili Con Carne
+  ingredients: red beans, onion, ground meat (mixed), corn
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fimg.chefkoch-cdn.de%2Frezepte%2F1578671265353584%2Fbilder%2F1232237%2Fcrop-960x540%2Fchili-con-carne.jpg&sp=1602275509T682d1488429ec05c69b2bafae6282e245efbbfd7bdcc62098694b7e3e9a7f3b6
+
+- name: Süßkartoffeln Eintopf
+  ingredients: sweet potato, potato, tomato sauce
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fklaraslife.com%2Fwp-content%2Fuploads%2F2019%2F10%2FKichererbsen-Eintopf-41.jpg&sp=1602275676Tfe48b3a29d21efe39c5b7cb05fc31915c589471411571a64e15f8851f3f54a23
+
+- name: Chicken and potatoes
+  ingredients: chicken, potatoes, carrots
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftherecipecritic.com%2Fwp-content%2Fuploads%2F2016%2F12%2Fslow-cooker-chicken-potatoes-2-1-667x1000.jpg&sp=1602276251Teb9fc241beba205958ef162e8e1882fd7b51c069e53d8b5ee0d7c7595a3fb4f2
