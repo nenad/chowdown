@@ -13,3 +13,31 @@
 - name: Chicken and potatoes
   ingredients: chicken, potatoes, carrots
   image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftherecipecritic.com%2Fwp-content%2Fuploads%2F2016%2F12%2Fslow-cooker-chicken-potatoes-2-1-667x1000.jpg&sp=1602276251Teb9fc241beba205958ef162e8e1882fd7b51c069e53d8b5ee0d7c7595a3fb4f2
+
+- name: Sloppy Joes
+  ingredients: ground meat, buns, pepper, ketchup, onion
+  image: https://www.thechunkychef.com/wp-content/uploads/2018/10/The-Best-Homemade-Sloppy-Joes-on-bun-680x878.jpg
+
+- name: Greek Salad with Chicken
+  ingredients: cucumber, onion, chicken, tomato, hard cheese, green salad
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fhealthyfitnessmeals.com%2Fwp-content%2Fuploads%2F2020%2F05%2Finstagram-In-Stream_Square___Greek-chicken-salad-4.jpg&sp=1602881959T38db373f7f3334839665b45162251ad07c3beb7a2213a0d66afc756edfa251f4
+
+- name: Spaghetti Carbonara
+  ingredients: linguini, bacon, parmegiano, eggs
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fimg.jamieoliver.com%2Fjamieoliver%2Frecipe-database%2FoldImages%2Flarge%2F1558_1_1436795948.jpg%3Ftr%3Dw-800%2Ch-1066&sp=1602888707T59f8bb47dcb57fbb89d69e468fbaa2e01d3fb5a024940600f881229f5307b255
+
+- name: Pappardelle with Chicken and Pesto
+  ingredients: chicken, pesto, pappardelle
+  image: https://gracegritsgarden.com/wp-content/uploads/2018/08/Pappardelle-with-fresh-pesto-and-chicken-768x1024.jpg
+
+- name: Burrito
+  ingredients: ground beef, beans, avocado, onion, garlic, rice, corn, green salad
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flovingitvegan.com%2Fwp-content%2Fuploads%2F2018%2F11%2FVegan-Burrito-11.jpg&sp=1602889078T8a0f9f3bbd66b16d5ee744cd5d6614c52cb03019cba042dd03911c6a84387c63
+
+- nama: Chicken Quasadella
+  ingredients: chicken, burrito bread, tomato, beans, cheese
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSGwAHTTR8y-LTBpuoJWdRJsx-e9XK-hOIFvhL6UMGCTm0PJOo%26s&sp=1602889129T41bf18497f63800d9d65a38fa8fed04efbf0ceb2093b9b04306b6c1e54d6ba79
+
+- nama: Veggie Quasadella
+  ingredients: burrito bread, tomato, beans, cheese
+  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQ1TVeJoWvT4UzBMiMwmdxrbjUZw1swTiuKrC5HAWXMMdUyHDKN%26s&sp=1602889129T4cf9540e7e880336fb83505b0e32592531cf45ccede678f1ce9de5c859b152a1
