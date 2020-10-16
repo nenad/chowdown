@@ -1,22 +1,40 @@
 ---
-layout: beta
+layout: default
+title: Random recipes
 ---
 
-<div class="home">
+{% assign week = site.time | date: "W%W-%Y" %}
+{%- comment -%}Find recipes from current week{%- endcomment -%}
+{% assign randomRecipes = '' | split: '' %}
+{% for val in site.data.weeks %}
+{% if val[0] == week %}
+{% for recName in val[1] %}
+  {% assign recipe = site.data.recipes | where: "name", recName.name %}
+  {% assign randomRecipes = randomRecipes | concat: recipe %}
+{% endfor %}
+{% endif %}
+{% endfor %}
 
-  <div class="recipes xs-px1 xs-mt2">
-    <div class="clearfix">
-    {% assign sorted = site.recipes | sort:"date" %}
-    {% for post in sorted %}
-
-      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
-          <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
-            <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
-          </a>
+<h1 class="title has-text-centered">{{week}}</h1>
+<div class="container">
+{% for recipe in randomRecipes %}
+<div class="card m-4">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img style="object-fit: cover;" src="{{recipe.image}}" alt="Image of {{recipe.name}}">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4">{{recipe.name}}</p>
       </div>
-    {% endfor %}
-  </div>
-  </div>
+    </div>
 
+    <div class="content">
+      {{recipe.ingredients}}
+    </div>
+  </div>
+</div>
+{% endfor %}
 </div>
