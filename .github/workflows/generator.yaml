@@ -13,7 +13,7 @@ jobs:
         nextWeek=$(( $(date +%W) + 1))
         echo '' > /tmp/newMenu
         echo $(date +W%$nextWeek-%Y:) >> /tmp/newMenu
-        grep "name:" _data/recipes.yml | sort -R | head -3 | xargs -I {} printf '  %s\n' "{}" >> /tmp/newMenu
+        grep "name:" _data/recipes.yml | sort -R | head -4 | xargs -I {} printf '  %s\n' "{}" >> /tmp/newMenu
         cat /tmp/newMenu >> _data/weeks.yml
     - name: Commit changes
       uses: EndBug/add-and-commit@v5
