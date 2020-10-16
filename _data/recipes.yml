@@ -8,7 +8,7 @@
 
 - name: Süßkartoffeln Eintopf
   ingredients: sweet potato, potato, tomato sauce
-  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fklaraslife.com%2Fwp-content%2Fuploads%2F2019%2F10%2FKichererbsen-Eintopf-41.jpg&sp=1602275676Tfe48b3a29d21efe39c5b7cb05fc31915c589471411571a64e15f8851f3f54a23
+  image: https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_auto,w_2600/hellofresh_s3/image/5a745dcc30006c5f46065bd2-8cef80e2.jpg
 
 - name: Chicken and potatoes
   ingredients: chicken, potatoes, carrots
@@ -34,10 +34,10 @@
   ingredients: ground beef, beans, avocado, onion, garlic, rice, corn, green salad
   image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flovingitvegan.com%2Fwp-content%2Fuploads%2F2018%2F11%2FVegan-Burrito-11.jpg&sp=1602889078T8a0f9f3bbd66b16d5ee744cd5d6614c52cb03019cba042dd03911c6a84387c63
 
-- nama: Chicken Quasadella
+- name: Chicken Quasadella
   ingredients: chicken, burrito bread, tomato, beans, cheese
-  image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSGwAHTTR8y-LTBpuoJWdRJsx-e9XK-hOIFvhL6UMGCTm0PJOo%26s&sp=1602889129T41bf18497f63800d9d65a38fa8fed04efbf0ceb2093b9b04306b6c1e54d6ba79
+  image: https://dressings-sauces.org/wp-content/uploads/2018/10/AdobeStock_199213828.jpeg
 
-- nama: Veggie Quasadella
+- name: Veggie Quasadella
   ingredients: burrito bread, tomato, beans, cheese
   image: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQ1TVeJoWvT4UzBMiMwmdxrbjUZw1swTiuKrC5HAWXMMdUyHDKN%26s&sp=1602889129T4cf9540e7e880336fb83505b0e32592531cf45ccede678f1ce9de5c859b152a1

@@ -3,7 +3,8 @@ layout: default
 title: Random recipes
 ---
 
-{% assign week = site.time | date: "W%W-%Y" %}
+{% assign days = 3 | times: 24 | times: 60 | times: 60 %}
+{% assign week = 'now' | date: "%s" | plus: days | date: "%Y-%m-%d" | date: "W%W-%Y" %}
 {%- comment -%}Find recipes from current week{%- endcomment -%}
 {% assign randomRecipes = '' | split: '' %}
 {% for val in site.data.weeks %}
